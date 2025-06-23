@@ -2,9 +2,7 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-import cardGameimage from "../../public/images/cardgame.png";
-import ecomerceimage from "../../public/images/ecomerce.PNG";
-import trackappimage from "../../public/images/trackapp.PNG";
+
 const projects = [
   {
     name: "Le Voyant — Card Game",
