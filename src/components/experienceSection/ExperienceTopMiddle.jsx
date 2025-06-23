@@ -1,9 +1,9 @@
-import subSkills from '../../assets/subSkills.jpg';
-import SubSkills from '../skillsSection/SubSkills';
+import experienceImage from '../../assets/experience-image.png';
 const ExperienceTopMiddle = () => {
   return (
     <div className="lg:w-[35%] md:w-[50%] sm:w-[80%]">
-      <img src={SubSkills} alt="my experience" />
+      <img src={experienceImage} 
+      alt="my experience" />
     </div>
   );
 };
