@@ -15,7 +15,7 @@ const projects = [
     name: "E-commerce Website",
     year: "Mars 2025",
     align: "right",
-    image: "/images/website-img-1.jpg", 
+    image: "/images/ecomerce.PNG", 
     link: "#",
   },
  
@@ -23,7 +23,7 @@ const projects = [
     name: "Track Cars Website",
     year: "January 2025-Present",
     align: "left",
-    image: "/images/website-img-3.jpg", 
+    image: "/images/trackapp.PNG", 
     link: "#",
   },
   
