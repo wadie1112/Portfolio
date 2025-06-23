@@ -1,5 +1,5 @@
 import { PiHexagonThin } from "react-icons/pi";
-import wadieblanc from "../../public/images/wadieblanc.png";
+import wadieblanc from "../../assets/wadieblanc.png";
 const HeroImage = () => {
   return (
     <div className="relative self-end h-full w-full items-center justify-center">

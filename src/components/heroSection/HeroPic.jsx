@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
-import wadieblanc from "../../public/images/wadieblanc.png"; // Adjust the path as necessary
+import wadieblanc from "../../assets/wadieblanc.png"; // Adjust the path as necessary
 const HeroPic = () => {
   return (
     <motion.div
