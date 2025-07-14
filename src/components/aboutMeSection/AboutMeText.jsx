@@ -6,7 +6,7 @@ const AboutMeText = () => {
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
         Hello there! My name is Wadie Gaddour, and I'm a Software Engineer passionate about crafting innovative solutions in data analytics,
-         business intelligence, and web development. With expertise in Python, JavaScript, SQL, and PowerBI.
+         ERP Systems, and Devops. With expertise in Python, JavaScript, SQL, and PowerBI.
           I build efficient applications, insightful dashboards, and robust CI/CD pipelines.
            I’m eager to collaborate with talented teams to deliver impactful technical projects.
       </p>

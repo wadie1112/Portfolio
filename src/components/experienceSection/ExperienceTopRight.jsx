@@ -8,13 +8,13 @@ const ExperienceTopRight = () => {
         </span>
         , a passionate Software Engineer focused on{" "}
         <span className="font-bold text-white">
-          Web Development, Data Analytics, and Devops
+          ERP Systems, Data Analytics, and Devops
         </span>
         .<br />
-        I build insightful dashboards, clean user interfaces, and efficient
-        backends using{" "}
+        I design integrated business solutions, insightful dashboards, and scalable 
+        architectures using{" "}
         <span className="font-bold text-white">
-          Python, JavaScript, SQL, and Power BI
+          Python, JavaScript, SQL, Power BI, SAP, and Dynamics 365
         </span>
         .<br />
         I'm always looking to collaborate on impactful projects and contribute
