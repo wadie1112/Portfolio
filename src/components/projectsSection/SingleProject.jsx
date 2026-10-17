@@ -1,5 +1,4 @@
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
-import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const SingleProject = ({ name, year, align, image, link }) => {

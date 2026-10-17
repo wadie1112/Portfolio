@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const SingleExperience = ({ experience }) => {

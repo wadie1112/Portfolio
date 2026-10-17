@@ -1,6 +1,5 @@
 import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
-import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [

@@ -1,12 +1,46 @@
-# React + Vite
+# Wadie Gaddour — Data Analyst & BI Engineer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A data-driven professional portfolio built with React and Vite. The central
+“Query My Career” experience lets visitors explore verified experience,
+internships, and projects through generated SQL, DAX, or plain-language
+queries—without writing code.
 
-Currently, two official plugins are available:
+The interface uses a premium light theme by default, with a matching dark theme
+available from the navigation, and ships in two languages (English and French).
+Theme and language selections are stored in `localStorage` under
+`portfolio-theme` (`light` | `dark`) and `portfolio-language` (`en` | `fr`).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Structure
 
-## Expanding the ESLint configuration
+- Portfolio content is stored in `src/data/portfolioData.js`. Every
+  translatable field is an `{ en, fr }` object.
+- UI strings (navigation, labels, section copy) live in `src/data/uiText.js`.
+- `src/hooks/useLanguage.js` exposes `LanguageContext`, `useLanguage()`, and the
+  `pick(value, language)` helper used to resolve `{ en, fr }` fields.
+- Reusable portfolio sections live in `src/components/portfolio/`.
+- Global visual styling is split between `src/index.css` and `src/App.css`.
+- Theme design tokens are defined in `src/index.css`.
+- `src/App.jsx` defines the page composition, theme/language state, and
+  query-result state.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Content rules
+
+- Content must remain aligned with the CV: no invented roles, projects,
+  metrics, or certifications.
+- Learning-roadmap technologies must not be moved into established skills
+  unless they are explicitly confirmed.
+- When adding content, provide both `en` and `fr` values.
+
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Validation
+
+```bash
+npm run lint
+npm run build
+```

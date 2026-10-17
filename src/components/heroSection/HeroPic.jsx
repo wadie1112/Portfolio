@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
 import wadieblanc from "../../assets/wadieblanc.png"; // Adjust the path as necessary
